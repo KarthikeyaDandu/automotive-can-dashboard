@@ -1,13 +1,18 @@
-# Automotive CAN Dashboard 🚗
+# 🚗 Automotive Digital Twin Dashboard
 
 ## Overview
-This project simulates an automotive ECU network and displays real-time vehicle telemetry.
+This project simulates an automotive ECU network using CAN communication concepts and visualizes real-time vehicle telemetry through an interactive dashboard.
+
+## Demo
+![Dashboard](dashboard.png)
 
 ## Features
-- Simulated CAN data (Speed, RPM, Temperature)
-- Live dashboard using Streamlit
-- Multi-ECU visualization
-- Real-time updates
+
+- Real-time vehicle telemetry (Speed, RPM, Temperature)
+- Live updating dashboard
+- Fault detection (Overheat, High RPM)
+- CAN message simulation (0x101, 0x102, 0x103)
+- Multi-ECU system visualization
 
 ## Architecture
 Laptop Simulation → CAN Data → Dashboard
@@ -22,6 +27,15 @@ Laptop Simulation → CAN Data → Dashboard
 - Real CAN communication
 - Diagnostics module
 
-## Demo
+## Roadmap
+- Implement real CAN communication
+- Add diagnostic protocols (UDS/OBD)
+- Expand into full vehicle digital twin
 
-![Automotive Dashboard](screenshot.png)
+## Why This Project Matters
+
+This project demonstrates:
+- Real-time embedded system thinking
+- Automotive ECU communication concepts
+- CAN-based data simulation
+- System-level architecture design
