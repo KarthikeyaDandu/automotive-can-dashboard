@@ -1,0 +1,27 @@
+# Automotive CAN Dashboard 🚗
+
+## Overview
+This project simulates an automotive ECU network and displays real-time vehicle telemetry.
+
+## Features
+- Simulated CAN data (Speed, RPM, Temperature)
+- Live dashboard using Streamlit
+- Multi-ECU visualization
+- Real-time updates
+
+## Architecture
+Laptop Simulation → CAN Data → Dashboard
+
+## Tech Used
+- Python
+- Streamlit
+- CAN simulation concepts
+
+## Future Work
+- Integrate STM32 hardware
+- Real CAN communication
+- Diagnostics module
+
+## Demo
+
+![Automotive Dashboard](screenshot.png)
